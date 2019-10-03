@@ -2,7 +2,7 @@
 
 wp_dequeue_style('libretto-fonts');
 
-add_action('wp_enqueue_scripts', static function (): void {
+add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('libretto-style', get_template_directory_uri() . '/style.css');
 
     wp_enqueue_style('child-style',

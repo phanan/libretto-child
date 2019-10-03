@@ -8,3 +8,7 @@
  Version:      1.0.0
  Text Domain:  libretto-child
 */
+
+body, button, input, select, textarea {
+    font-family: 'Literata', serif;
+}
